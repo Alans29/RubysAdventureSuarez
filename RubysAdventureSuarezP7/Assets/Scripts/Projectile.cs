@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour
 
     void Awake()
     {
-        rigidbody2d = GetComponent<Rigidbody2d>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
     public void Launch(Vector2 direction, float force)
